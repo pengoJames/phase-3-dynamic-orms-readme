@@ -4,7 +4,7 @@ require 'active_support/inflector'
 class Song
 
 
-  def self.table_name
+  def self.table_name              # the method grabs us the table name we want to query
     self.to_s.downcase.pluralize
   end
 

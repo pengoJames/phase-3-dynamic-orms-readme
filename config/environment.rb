@@ -14,3 +14,9 @@ SQL
 
 DB[:conn].execute(sql)
 DB[:conn].results_as_hash = true
+
+# creating the database
+# drop songs table to avoid an error
+# creating the songs table
+
+#results_as_hash method is available to the use from the SQLite3-Ruby gem.
